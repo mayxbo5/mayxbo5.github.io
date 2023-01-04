@@ -12,3 +12,7 @@ order allow,deny
 deny from all
 </Files>
  
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^jmkjr.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.jmkjr.com/$1 [R,L]
