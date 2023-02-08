@@ -195,7 +195,10 @@
 
 						<ul class="actions">
 							<form action="https://formsubmit.co/ec4b815784cecd550bff01889ffcde1c" method="POST" id="contact-form">
-
+						<!--Honeypot-->
+								<input type="text" name="_honey" style="display: none">
+						<!-- Disable Captcha -->
+								<input type="hidden" name="_captcha" value="false">
 <p><label>First Name:</label> <input name="name" type="text" /></p>
 <p><label>Email Address:</label> <input style="cursor: pointer;" name="email" type="text" /></p>
 <p><label>Message:</label>  <textarea name="message"></textarea> </p>
