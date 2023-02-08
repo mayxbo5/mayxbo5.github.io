@@ -13,7 +13,7 @@
 
 	body {
 		background: #e0e0d5;
-		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-family: 'Raleway', Arial, Helvetica, sans-serif;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -31,7 +31,7 @@
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-family: 'Raleway', Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
 		line-height: 2em;
