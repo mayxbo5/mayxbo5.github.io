@@ -82,17 +82,19 @@
 	}
 
 		#navButton .toggle:before {
-			content: "";
+			content: url("../images/icons8-hamburger-menu-24.png");
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
+			font-size: 16px;
 			text-transform: none !important;
+			padding-top: 5px;
 		}
 
 		#navButton .toggle:before {
-			background: rgba(144, 144, 144, 0.65);
+			background: rgba(144, 144, 144, 0.2);
 			border-radius: 4px;
 			color: #7a6d4e;
 			display: block;
