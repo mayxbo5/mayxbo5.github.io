@@ -11,7 +11,7 @@
 /* Basic */
 
 	body {
-		background: #1f1f1f;
+		background: #e0e0d5;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1095,11 +1095,11 @@
 		
 
 		#banner p {
-			color: #aaa;
+			color: #fff;
 			font-size: 1.5em;
 			margin-bottom: 200px;
 			margin-top: 200px;
-			text-transform: lowercase;
+			
 		}
 
 	body.is-touch #banner {
