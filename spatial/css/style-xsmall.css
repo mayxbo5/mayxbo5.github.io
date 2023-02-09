@@ -58,7 +58,7 @@
 	input[type="reset"],
 	input[type="button"],
 	.button {
-		padding: 0;
+		margin: 1em;
 	}
 
 /* Feature */
