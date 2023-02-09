@@ -371,7 +371,7 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #323037;
+			background: #fff;
 			border-color: #323037;
 			color: #000;
 			content: '\f00c';
@@ -379,7 +379,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f32853;
+			border-color: #c48b7a;
 			box-shadow: 0 0 0 1px #c48b7a;
 		}
 
