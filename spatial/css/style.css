@@ -331,7 +331,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #fff;
+			color: #e0e0d5;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -371,9 +371,9 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #fff;
+			background: #323037;
 			border-color: #323037;
-			color: #000;
+			color: #e0e0d5;
 			content: '\f00c';
 		}
 
